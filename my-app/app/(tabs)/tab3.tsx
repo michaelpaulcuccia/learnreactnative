@@ -1,12 +1,12 @@
-import { StyleSheet, View, Text } from "react-native";
+import { View, Text, StyleSheet } from "react-native";
 import { HamburgerMenu } from "@/components/HamburgerMenu";
 
-export default function HomeScreen() {
+export default function TabTwo() {
   return (
     <View style={styles.container}>
       <HamburgerMenu />
       <View style={styles.body}>
-        <Text style={styles.text}>🏠 Welcome to the Home Screen</Text>
+        <Text style={styles.text}>📄 This is Tab Three, Yo Leela!</Text>
       </View>
     </View>
   );
